@@ -153,7 +153,7 @@
               
                 <h2 id="cx-sd-wan-bootcamp-lab-guide">CX SD-WAN Bootcamp Lab Guide</h2>
 <h2 id="introduction"><strong>Introduction</strong></h2>
-<p>Welcome to CX SD-WAN bootcamp. This lab covers SD-WAN base and advanced knowledge including configuring feature template/device template, local routing policy, local data policy, central routing policy, control policy, app-aware routing policy and some common use cases like DIA, QoS etc. <br> </br>Unlike other bootcamps, this lab guide doesn't include detail step by step instructions. Instead we give you the objective and intent for each task, you need to do your research and complete the task. <br><br> Upon completion of the task, you need upload screenshots or configuration files to show the results to your instructor.</p>
+<p>Welcome to CX SD-WAN bootcamp. This lab covers SD-WAN base and advanced knowledge including configuring feature template/device template, local routing policy, local data policy, central routing policy, control policy, app-aware routing policy and some common use cases like DIA, QoS etc. <br> </br>Unlike other bootcamp's lab guide, this lab guide doesn't include detail step by step instructions. Instead we give you the objective and intent for each task, you need to do your research and complete the task. <br><br> Upon completion of the task, you need upload screenshots or configuration files to show the results to your instructor.</p>
 <h2 id="1-lab-access">1. Lab Access</h2>
 <h5 id="11-anyconnect-to-dcloud">1.1. anyconnect to dCloud</h5>
 <p><strong>Note:</strong> found your login credential from login sheet</p>
@@ -176,7 +176,7 @@
 </table>
 <p><img src="https://leitian123.github.io/cx-bootcamp/img/1_3.PNG" width="400"/></p>
 <h5 id="14-import-lab-topology">1.4. Import lab topology</h5>
-<p><strong>Note:</strong> the lab topology can be downloaded from box folder
+<p><strong>Note:</strong> the lab topology can be downloaded from <a href="https://cisco.box.com/s/e0fxzbe4nkor7vn0smhhwab18dztdad7"><strong>box folder</strong></a>
 <img src="https://leitian123.github.io/cx-bootcamp/img/1_4.PNG" width="400"/></p>
 <p></br></br>
 - Select <strong>v19.2.2</strong> as VNF Version, and <strong>Next</strong></p>
@@ -207,6 +207,7 @@
 <tr>
 <th><strong>Site</strong></th>
 <th><strong>subnet</strong></th>
+<th><strong>SiteID</strong></th>
 <th><strong>Routing Protocol</strong></th>
 </tr>
 </thead>
@@ -214,36 +215,43 @@
 <tr>
 <td>Control Plane</td>
 <td>19.1.0.0/24</td>
+<td></td>
 <td>Static</td>
 </tr>
 <tr>
 <td>Internet Transport</td>
 <td>19.0.0.0/8</td>
+<td></td>
 <td>Static</td>
 </tr>
 <tr>
 <td>MPLS Transport</td>
 <td>10.0.0.0/8</td>
+<td></td>
 <td>Static</td>
 </tr>
 <tr>
 <td>DC-SanJoe</td>
 <td>10.10.100.0/24</td>
+<td></td>
 <td>OSPF,BGP ASN 100</td>
 </tr>
 <tr>
 <td>BR3-LosAngeles</td>
 <td>10.30.100.0/24</td>
+<td></td>
 <td>Static</td>
 </tr>
 <tr>
 <td>BR1</td>
 <td>11.1.1.0/24</td>
+<td></td>
 <td>VRRP</td>
 </tr>
 <tr>
 <td>DC2-NewYork</td>
 <td>10.10.200.0/24</td>
+<td></td>
 <td>Static</td>
 </tr>
 </tbody>
