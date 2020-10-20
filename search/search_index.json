@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to CX SD-WAN Bootcamp\n\n\n\n\nFor future bootcamp schedule, please reach out Tony Malangone\n\n\nInstructors\n\n\n\n\nDaniel White\n\n\nLei Tian",
+            "text": "Welcome to CX SD-WAN Bootcamp\n\n\n\n\nFor future bootcamp schedule, please reach out Tony Malangone\n\n\nInstructors\n\n\n\n\nInstructor 1\n\n\nInstructor 2",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#instructors",
-            "text": "Daniel White  Lei Tian",
+            "text": "Instructor 1  Instructor 2",
             "title": "Instructors"
         },
         {
